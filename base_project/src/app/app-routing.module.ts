@@ -1,7 +1,18 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
+import { JbalvinComponent } from './jbalvin/jbalvin.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+
+  {
+    path: '',
+    component: JbalvinComponent,
+  },
+
+];
+
+
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
